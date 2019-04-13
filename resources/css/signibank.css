@@ -1,19 +1,22 @@
-body html{
-    margin: 0;
-    padding: 0;
+.button-get-started{
+  width: 147px;
+  height: 41px;
+  object-fit: contain;
+  margin-top: -7px;
+  border-radius: 30px !important;
 }
 
 .backgroundimg{
-    background-image: url("./../pictures/bg-1.svg");
+    background-image: url("./../pictures/1-giant-bg.svg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 100vh;
-    width: 100%;
 }
 .SIGNIBANK {
-    padding-right: 300px !important;
-
+    margin-top: -3px;
+    padding-right: 70px !important;
+    margin-left: 140px;
     height: 29px;
     font-family: Lato;
     font-size: 24px;
@@ -23,7 +26,6 @@ body html{
     line-height: normal;
     letter-spacing: 0px;
     color: #ffffff;
-
 }
 .Products-Pricing-Acc {
     /*width: 465px;*/
@@ -43,13 +45,38 @@ body html{
     width: 147px;
     height: 41px;
 }
-input[type=button] {
-    display: block;
-    width: 50%;
-    margin: 0 auto;
+
+#iphone {
+    width: 1040px;
+    margin-top: -100px;
 }
 
-.button-wrapper {
-    display: table-cell;
-    vertical-align: middle;
+#future {
+    margin-left: 140px;
+    width: 543px;
+    height: 201px;
+    font-family: Lato;
+    font-size: 56px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    color: #ffffff;
+}
+
+#create {
+  margin-left: 140px;
+  margin-top: -100px;
+  width: 488px;
+  height: 87px;
+  opacity: 0.58;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0px;
+  color: #ffffff;
 }
