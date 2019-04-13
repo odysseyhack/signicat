@@ -1,7 +1,7 @@
 .circle-loader {
   margin: 0 0 30px 10px;
   border: 2px solid rgba(0, 0, 0, 0.2);
-  border-left-color: #5cb85c;
+  border-left-color: #4b90e9;
   animation-name: loader-spin;
   animation-duration: 1s;
   animation-iteration-count: infinite;
@@ -19,13 +19,7 @@
 .load-complete {
   -webkit-animation: none;
   animation: none;
-  border-color: #5cb85c;
-  transition: border 500ms ease-out;
-}
-.load-error {
-  -webkit-animation: none;
-  animation: none;
-  border-color: red;
+  border-color: #4b90e9;
   transition: border 500ms ease-out;
 }
 .checkmark {
@@ -37,8 +31,8 @@
   height: 4em;
   width: 2em;
   transform-origin: left top;
-  border-right: 2px solid #5cb85c;
-  border-top: 2px solid #5cb85c;
+  border-right: 2px solid #4b90e9;
+  border-top: 2px solid #4b90e9;
   content: '';
   left: 2em;
   top: 4em;

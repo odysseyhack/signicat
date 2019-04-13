@@ -125,19 +125,19 @@ body html{
   position: absolute;
   top: 83%;
   left: 50%;
-  margin-top: -400px;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #4b90e9
 }
 
-#button-image-contrainer input {
+#kvktext {
   position: absolute;
-  top: 83%;
+  outline: 1px solid black;
+  text-align: center;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #4b90e9
 }
 
 .invisible-button{
