@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="433" height="208" viewBox="0 0 433 208">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#E9746E" stroke="#000" d="M.5.5h432v207H.5z"/>
+        <text fill="#FFF" font-family="Lato-Regular, Lato" font-size="24" letter-spacing=".044">
+            <tspan x="52" y="65">Digital process (fast)</tspan>
+        </text>
+        <text fill="#FFF" font-family="Lato-Regular, Lato" font-size="20" letter-spacing=".037">
+            <tspan x="52" y="112">Register with </tspan> <tspan x="172.636" y="112" font-family="Lato-Bold, Lato" font-weight="bold">SuperID</tspan>  <tspan x="52" y="136">(using IDIN and KVK)</tspan>
+        </text>
+        <text fill="#FFF" font-family="Lato-Regular, Lato" font-size="12" letter-spacing=".022">
+            <tspan x="217" y="189">Registration typically takes 10 minutes</tspan>
+        </text>
+    </g>
+</svg>

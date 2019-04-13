@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="397" height="100" viewBox="0 0 397 100">
+    <defs>
+        <path id="b" d="M0 0h385v88H0z"/>
+        <filter id="a" width="105.2%" height="122.7%" x="-2.6%" y="-9.1%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.683537138 0 0 0 0 0.683537138 0 0 0 0 0.683537138 0 0 0 0.5 0"/>
+        </filter>
+        <path id="c" d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20z"/>
+        <path id="d" d="M0 .002h49.95V43H0z"/>
+        <path id="f" d="M0 43h49.95V.002H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(6 4)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#FFF" xlink:href="#b"/>
+        </g>
+        <g transform="matrix(-1 0 0 1 375 37.768)">
+            <path d="M0 0h24v24H0z"/>
+            <use fill="#666" xlink:href="#c"/>
+        </g>
+        <text fill="#666" font-family="OpenSans-Bold, Open Sans" font-size="24" font-weight="bold" transform="translate(6 4)">
+            <tspan x="94" y="54">Verify with IDIN</tspan>
+        </text>
+        <path fill="#000" d="M36 64h8V51h-8zM44.16 44.644c0 2.47-2.028 4.474-4.53 4.474-2.502 0-4.53-2.004-4.53-4.474s2.028-4.473 4.53-4.473c2.502 0 4.53 2.003 4.53 4.473"/>
+        <g transform="translate(30 27)">
+            <mask id="e" fill="#fff">
+                <use xlink:href="#d"/>
+            </mask>
+            <path fill="#000" d="M28.174 2.858c5.566 0 10.205 1.489 13.415 4.305 3.629 3.184 5.468 8.008 5.468 14.338 0 12.545-6.176 18.643-18.883 18.643H2.893V2.858h25.281zm.544-2.856H0V43h28.718v-.008c6.273-.084 11.242-1.623 14.769-4.585 4.289-3.603 6.463-9.29 6.463-16.906 0-3.64-.572-6.905-1.7-9.705-1.08-2.678-2.674-4.955-4.74-6.767C39.871 1.836 34.764.109 28.718.01V.002z" mask="url(#e)"/>
+        </g>
+        <path fill="#00B0F0" d="M57.384 64.341H47.231V33.334h10.153-.41c8.468 0 17.48 3.3 17.48 15.544 0 12.946-9.012 15.463-17.48 15.463h.41z"/>
+        <g transform="translate(30 27)">
+            <path fill="#FFF" d="M16.996 15.84v4.598h.65c.555 0 .95-.06 1.184-.18.234-.121.418-.332.55-.632.133-.3.2-.787.2-1.46 0-.892-.149-1.503-.446-1.832-.297-.329-.789-.493-1.476-.493h-.662zm-2.654-1.905h3.943c.777 0 1.405.103 1.883.31.479.207.874.503 1.187.89.312.386.539.836.68 1.348.14.513.21 1.057.21 1.63 0 .9-.104 1.597-.313 2.093-.209.495-.499.91-.87 1.245-.371.335-.77.558-1.195.669-.582.153-1.11.23-1.582.23h-3.943v-8.415z"/>
+            <mask id="g" fill="#fff">
+                <use xlink:href="#f"/>
+            </mask>
+            <path fill="#FFF" d="M23.745 22.35h2.66v-8.415h-2.66zM28.327 13.935h2.478l3.235 4.655v-4.655h2.502v8.415H34.04l-3.217-4.62v4.62h-2.496z" mask="url(#g)"/>
+        </g>
+    </g>
+</svg>

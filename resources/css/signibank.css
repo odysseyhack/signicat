@@ -1,85 +1,87 @@
 body html{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* windows */
 .popup {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    height:30%;
-    width:30%;
-    position:relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  height:30%;
+  width:30%;
+  position:relative;
 }
+
 .button-get-started{
-    width: 147px;
-    height: 41px;
-    object-fit: contain;
-    margin-top: -7px;
-    border-radius: 30px !important;
-    background-color: #F3646A !important;
-    border-color: #F3646A !important;
+  width: 147px;
+  height: 41px;
+  object-fit: contain;
+  margin-top: -7px;
+  border-radius: 30px !important;
+  background-color: #F3646A !important;
+  border-color: #F3646A !important;
 }
 
 .backgroundimg{
-    background-image: url("./../pictures/1-giant-bg.svg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 100vh;
+  background-image: url("./../pictures/1-giant-bg.svg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
+
 .SIGNIBANK {
-    margin-top: -3px;
-    padding-right: 70px !important;
-    margin-left: 140px;
-    height: 29px;
-    font-family: Lato;
-    font-size: 24px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0px;
-    color: #ffffff;
+  margin-top: -3px;
+  padding-right: 70px !important;
+  margin-left: 140px;
+  height: 29px;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0px;
+  color: #ffffff;
 }
 .Products-Pricing-Acc {
-    /*width: 465px;*/
-    height: 24px;
-    font-family: Lato;
-    font-size: 20px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0px;
-    color: #ffffff;
+  /*width: 465px;*/
+  height: 24px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0px;
+  color: #ffffff;
 
 }
 
 .Get-started-Copy {
-    width: 147px;
-    height: 41px;
+  width: 147px;
+  height: 41px;
 }
 
 #iphone {
-    width: 1040px;
-    margin-top: -100px;
+  width: 1040px;
+  margin-top: -100px;
 }
 
 #future {
-    margin-left: 140px;
-    width: 543px;
-    height: 201px;
-    font-family: Lato;
-    font-size: 56px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.1px;
-    color: #ffffff;
+  margin-left: 140px;
+  width: 543px;
+  height: 201px;
+  font-family: Lato;
+  font-size: 56px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  color: #ffffff;
 }
 
 #create {
@@ -96,86 +98,51 @@ body html{
   line-height: normal;
   letter-spacing: 0px;
   color: #ffffff;
-  }.button-get-started{
-
-      width: 147px;
-      height: 41px;
-      object-fit: contain;
-      margin-top: -7px;
-      border-radius: 30px !important;
-  }
-
-  .backgroundimg{
-    background-image: url("./../pictures/1-giant-bg.svg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-.SIGNIBANK {
-    margin-top: -3px;
-    padding-right: 70px !important;
-    margin-left: 140px;
-    height: 29px;
-    font-family: Lato;
-    font-size: 24px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0px;
-    color: #ffffff;
-}
-.Products-Pricing-Acc {
-    /*width: 465px;*/
-    height: 24px;
-    font-family: Lato;
-    font-size: 20px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0px;
-    color: #ffffff;
-
 }
 
-.Get-started-Copy {
-    width: 147px;
-    height: 41px;
+.backgroundimg_2{
+  background-image: url("./../pictures/bg-1.svg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
-#iphone {
-    width: 1040px;
-    margin-top: -100px;
+#content{
+  margin-top: 92px;
+  margin-left: 72px;
+  width: 1000px;
+  height: 730px;
+  background-color: #ffffff;
 }
 
-#future {
-    margin-left: 140px;
-    width: 543px;
-    height: 201px;
-    font-family: Lato;
-    font-size: 56px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.1px;
-    color: #ffffff;
+#button-image-container{
+  text-align:center;
+  position: relative;
 }
 
-#create {
-  margin-left: 140px;
-  margin-top: -100px;
-  width: 488px;
-  height: 87px;
-  opacity: 0.58;
-  font-family: Lato;
-  font-size: 24px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 0px;
-  color: #ffffff;
+#button-image-container .btn {
+  position: absolute;
+  top: 83%;
+  left: 50%;
+  margin-top: -400px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #4b90e9
+}
+
+#button-image-contrainer input {
+  position: absolute;
+  top: 83%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #4b90e9
+}
+
+.invisible-button{
+  position: absolute;
+  background: transparent;
+  border: none !important;
+  font-size:0;
 }

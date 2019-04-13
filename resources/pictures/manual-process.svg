@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="433" height="208" viewBox="0 0 433 208">
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="#000" d="M.5.5h432v207H.5z"/>
+        <text fill="#000" font-family="Lato-Regular, Lato" font-size="24" letter-spacing=".044">
+            <tspan x="52" y="65">Manual process (slow)</tspan>
+        </text>
+        <text fill="#474747" font-family="Lato-Regular, Lato" font-size="20" letter-spacing=".037">
+            <tspan x="52" y="112">Upload a picture of your passport and </tspan> <tspan x="52" y="136">utility bill of your current home </tspan> <tspan x="52" y="160">address</tspan>
+        </text>
+        <text fill="#474747" font-family="Lato-Regular, Lato" font-size="12" letter-spacing=".022">
+            <tspan x="233.304" y="186">Registration typically takes 20 days</tspan>
+        </text>
+    </g>
+</svg>
