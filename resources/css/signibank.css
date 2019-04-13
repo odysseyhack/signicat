@@ -1,3 +1,18 @@
+body html{
+    margin: 0;
+    padding: 0;
+}
+
+/* windows */
+.popup {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    height:30%;
+    width:30%;
+    position:relative;
+}
 .button-get-started{
     width: 147px;
     height: 41px;
