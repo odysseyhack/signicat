@@ -8,16 +8,10 @@ import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.core.Response;
 
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
 import com.signicat.hackatonserver.utils.Utils;
 
 @Path("/")
 public class HackatonDemoResource {
-    private static final Logger LOG = LogManager.getLogger(HackatonDemoResource.class.getName());
 
     private static final String MOBILE_ID_AUTH_URL = "https://dev01.signicat.com/std/method/nbidmobile/?"
             + "id=mobileid-auth-web::"
@@ -25,10 +19,7 @@ public class HackatonDemoResource {
             + "&target=http%3A%2F%2Flocalhost%3A8080%2Fmobileidauthenticated"
             + "&prefilled.deviceId=#DEVICEID#";
 
-    private CloseableHttpClient client;
-
     public HackatonDemoResource() {
-        client = HttpClientBuilder.create().useSystemProperties().build();
     }
 
     @Path("/")
