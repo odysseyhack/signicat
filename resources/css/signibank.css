@@ -140,6 +140,14 @@ body html{
   -ms-transform: translate(-50%, -50%);
 }
 
+#toggle {
+  position: absolute;
+  text-align: center;
+  top: 76.5%;
+  left: 40.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 .invisible-button{
   position: absolute;
   background: transparent;
@@ -147,6 +155,9 @@ body html{
   font-size:0;
 }
 
-.lato {
-    font-family: Lato;
+.profile-center {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 75%;
 }
