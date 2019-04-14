@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="./resources/css/signibank.css" type="text/css" rel="stylesheet">
+	<link href="./resources/css/loader.css" type="text/css" rel="stylesheet">
+</head>
+<body style="background-color:#fffaf3">
+	<div id=button-image-container>
+		<img src="./resources/pictures/account_creation_creating_persona.png" alt="" class="popup">
+		<div class="circle-loader" style="  margin-top: -280px;">
+			<div class="checkmark"></div>
+		</div>
+	</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+	setTimeout(function () {
+		$('.circle-loader').removeClass('load-error').toggleClass('load-complete');
+		$('.checkmark').addClass('draw').toggle();
+		setTimeout(function () {
+			window.location.href='superid_account_creation_7.html'
+		}, 1500);
+	}, 1500);
+</script>
+</html>

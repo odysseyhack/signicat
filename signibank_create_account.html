@@ -12,10 +12,10 @@
 		<div class = "row backgroundimg_2">
 			<div id=content class="shadow-lg">
 				<div class="d-flex align-items-center justify-content-center" style="height: 50%; margin-top:40px; cursor:pointer">
-					<img id ="imgRegister" src="./resources/pictures/digital-process.svg" onclick="changeImage()">
+					<img id ="imgRegister" src="./resources/pictures/digital_process_unclicked.png" onclick="changeImage()"  width="433px">
 				</div>
 				<div class="d-flex align-items-center justify-content-center" style="height: 20%;">
-					<img src="./resources/pictures/manual-process.svg">
+					<img src="./resources/pictures/manual_process.png"  width="433px">
 				</div>
 			</div>
 		</div>
@@ -28,7 +28,7 @@
 </body>
 <script type="text/javascript">
 	function changeImage() {
-		document.getElementById("imgRegister").src = "./resources/pictures/digital-process_clicked.svg";
+		document.getElementById("imgRegister").src = "./resources/pictures/digital_process_clicked.png";
 		setTimeout(function () {
 			window.location.href='superid_account_creation_1.html'
 		}, 300);
